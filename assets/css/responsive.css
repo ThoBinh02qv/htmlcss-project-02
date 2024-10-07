@@ -1,25 +1,71 @@
+/* Small devices (landscape phones, 576px and up) */
+@media (max-width: 575.98px) {
+  .hero-content {
+    display: none;
+  }
 
- /* Small devices (landscape phones, 576px and up) */
-@media (min-width: 576px) { 
-  
- }
+}
 
- /* Medium devices (tablets, 768px and up) */
-@media (min-width: 768px) { 
-  
- }
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .hero-content {
+    display: none;
+  }
 
- /* Large devices (desktops, 992px and up) */
-@media (min-width: 992px) { 
-  
- }
 
- /* X-Large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) { 
-  
- }
+}
 
- /* XX-Large devices (larger desktops, 1400px and up) */
-@media (min-width: 1400px) { 
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 992.98px) {
+  .hero-content {
+    display: none;
+  }
+
+  .hero-info {
+    text-align: center;
+    width: 100%;
+  }
+
+  .hero-info .title {
+    font-size: 6rem;
+  }
+
+  h1.title {
+    width: 72%;
+    margin: 0 auto;
+  }
+
+  p.desc {
+    width: 75%;
+    margin: 0 auto;
+  }
+
+  .hero-info .desc  {
+    font-size: rem;
+    margin-top: 40px;
+  }
+
+  .hero-info .row-info {
+    justify-content: center;
+  }
+
+
+.hero-info .row-dest-sta {
+    justify-content: center;
+    margin-top: 30px;
+    gap: 100px;
+}
   
- }
+/* Course*/
+.courses .list {
+    flex-wrap: wrap;
+}
+}
+ 
+
+/* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+}
+
+/* XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {
+}
